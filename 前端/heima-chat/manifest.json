@@ -185,7 +185,8 @@
 			"index.html": {
 				"resources": [
 					"main_hchat.html",
-					"main_me.html"
+					"main_me.html",
+					"fonts/mui.ttf"
 				],
 				"refer": [
 					"main_contact.html",
