@@ -72,6 +72,12 @@
 	"search_friend.html": {
 		"refer": [
 			"search_friend_result.html"
+		],
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
 		]
 	},
 	"main_contact.html": {
@@ -87,6 +93,16 @@
 	"main_hchat.html": {
 		"refer": [
 			"chat.html"
+		]
+	},
+	"search_friend_result.html": {
+		"resources": [
+			"image/default_user_pic.png"
+		]
+	},
+	"chat.html": {
+		"resources": [
+			"css/chat.css"
 		]
 	}
 }

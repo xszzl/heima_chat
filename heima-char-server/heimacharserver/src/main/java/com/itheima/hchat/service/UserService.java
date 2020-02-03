@@ -35,4 +35,26 @@ public interface UserService {
      * @return 如果上传成功，返回用户信息，否则返回null
      */
     User upload(MultipartFile file, String userId);
+
+    /**
+     * 更新昵称
+     * @param id
+     * @param nickname
+     */
+    void updateNickname(String id, String nickname);
+
+    /**
+     * 根据用户id查找用户信息
+     * @param userid
+     * @return
+     */
+    User findById(String userid);
+
+    /**
+     * 根据用户名搜索用户
+     * @param userid 用户id
+     * @param friendUsername 好友的用户名
+     * @return 如果搜索到就好友，就返回用户对象，否则返回null
+     */
+    User findByUsername(String userid, String friendUsername);
 }

@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2062850-284a-4079-9925-02c4736ac072" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/controller/FriendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/netty/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/netty/UserChannelMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/pojo/vo/FriendReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/ChatRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/FriendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/impl/ChatRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/impl/FriendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/util/QRCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/util/SpringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../前端/heima-chat/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../前端/heima-chat/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/netty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/netty/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/netty/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/netty/ChatHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/heimacharserver/target/classes/com/itheima/hchat/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端/heima-chat/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../前端/heima-chat/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../前端/heima-chat/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../前端/heima-chat/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../前端/heima-chat/unpackage/.confirmed_dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/../前端/heima-chat/unpackage/.confirmed_dependencies" afterDir="false" />
     </list>
@@ -55,7 +76,9 @@
     <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
   </component>
   <component name="ProjectId" id="1X4LnnQgdlG4FW87rjKmX1xNBrP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -67,7 +90,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/heimacharserver/src/main/java/com/itheima/hchat/util" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -76,16 +99,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.hchat.service" />
+      <recent name="com.itheima.hchat.pojo.vo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\workspace\heima_chat\heima-char-server\heimacharserver\src\main\java\com\itheima\hchat\util" />
       <recent name="D:\work\workspace\heima-char-server\heimacharserver\src\main\java\com\itheima\hchat\util" />
       <recent name="D:\work\workspace\heima-char-server\heimacharserver\src\main\java\com\itheima\hchat\config" />
       <recent name="D:\work\workspace\heima-char-server\heimacharserver\src\main\webapp" />
       <recent name="D:\work\workspace\heima-char-server\heimacharserver\src\main\java\com\itheima\hchat\netty" />
-      <recent name="D:\work\workspace\heima-char-server\heimacharserver\src\main\resources" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.itheima.hchat.pojo.vo" />
-      <recent name="com.itheima.hchat.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -147,6 +170,17 @@
       <workItem from="1580357749532" duration="9117000" />
       <workItem from="1580367833896" duration="301000" />
       <workItem from="1580368460060" duration="181000" />
+      <workItem from="1580386386177" duration="1813000" />
+      <workItem from="1580391745690" duration="526000" />
+      <workItem from="1580451176740" duration="2778000" />
+      <workItem from="1580457951398" duration="1185000" />
+      <workItem from="1580548147512" duration="3833000" />
+      <workItem from="1580555191447" duration="659000" />
+      <workItem from="1580619936224" duration="1227000" />
+      <workItem from="1580621547322" duration="2830000" />
+      <workItem from="1580642043582" duration="746000" />
+      <workItem from="1580645784471" duration="113000" />
+      <workItem from="1580702235196" duration="4559000" />
     </task>
     <servers />
   </component>
@@ -158,7 +192,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

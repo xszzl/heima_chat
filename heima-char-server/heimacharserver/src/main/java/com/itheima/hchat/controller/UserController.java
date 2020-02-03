@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.HashMap;
 import java.util.List;
 
 @RestController
@@ -65,6 +66,38 @@ public class UserController {
         } catch (Exception e){
             e.printStackTrace();
             return new Result(false,"上传错误");
+        }
+    }
+
+    @RequestMapping("/updateNickname")
+    public Result updateNickname(@RequestBody TbUser user){
+        try {
+            userService.updateNickname(user.getId(),user.getNickname());
+            return new Result(true,"更新成功");
+        } catch (RuntimeException e){
+            return new Result(false,e.getMessage());
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"更新失败");
+        }
+    }
+
+    @RequestMapping("/findById")
+    public User findById(String userid){
+        return userService.findById(userid);
+    }
+
+    @RequestMapping("/findByUsername")
+    public Result findByUsername(String userid,String friendUsername){
+        try {
+            User user = userService.findByUsername(userid,friendUsername);
+            if (user != null){
+                return new Result(true,"搜索成功",user);
+            }
+            return new Result(false,"没有找到该用户");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"搜索失败");
         }
     }
 }

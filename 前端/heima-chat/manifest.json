@@ -256,7 +256,12 @@
 				"priority": 0
 			},
 			"search_friend.html": {
-				"resources": [],
+				"resources": [
+					"js/common.js",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
 				"refer": [
 					"search_friend_result.html"
 				],
@@ -278,6 +283,20 @@
 				"refer": [
 					"chat.html"
 				],
+				"priority": 0
+			},
+			"search_friend_result.html": {
+				"resources": [
+					"image/default_user_pic.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"chat.html": {
+				"resources": [
+					"css/chat.css"
+				],
+				"refer": [],
 				"priority": 0
 			}
 		},
