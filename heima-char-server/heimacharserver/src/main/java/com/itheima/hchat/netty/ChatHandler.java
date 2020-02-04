@@ -62,6 +62,15 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
                     System.out.println("用户"+chatRecord.getFriendid() + "不在线！");
                 }
                 break;
+            // 处理客户端的签收消息
+            case 2:
+                // 将消息记录设置为已读
+                chatRecordService.updateStatusHasRead(message.getChatRecord().getId());
+                break;
+            case 3:
+                // 接收心跳消息
+                System.out.println("接收到心跳消息：" + JSON.toJSONString(message));
+                break;
         }
     }
 
